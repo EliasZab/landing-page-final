@@ -4,48 +4,46 @@
     <v-row>
       <v-col cols="12" md="2">
         <v-img
-          class="img"
+          class="img mt-6 ml-6 mb-2"
           max-height="100%"
-          max-width="100%"
+          max-width="80%"
           width="100%"
           src="./images/OLIVOS PNG GRAND 1.png"
         ></v-img>
       </v-col>
+
+      <v-spacer></v-spacer>
       
       <v-col cols="12" md="3">
 
         <v-row>
-          <v-col>
+          <v-col class="iconos mt-6 mb-6">
             <a>
               <v-img
-                class="img ma-auto"
+                class="img"
                 max-height="100%"
                 max-width="100%"
-                width="100%"
+                width="85%"
                 src="./images/Internet (1).png"
               ></v-img>
             </a>
-          </v-col>
 
-          <v-col>
             <a>
               <v-img
-                class="img ma-auto"
+                class="img"
                 max-height="100%"
                 max-width="100%"
-                width="100%"
+                width="85%"
                 src="./images/Instagram Circle.png"
               ></v-img>
             </a>
-          </v-col>
 
-          <v-col>
             <a>
               <v-img
-                class="img ma-auto"
+                class="img"
                 max-height="100%"
                 max-width="100%"
-                width="100%"
+                width="85%"
                 src="./images/Facebook.png"
               ></v-img>
             </a>
@@ -58,7 +56,7 @@
       <hr class="hr1" size="40">
 
     <v-row class="ma-1">
-      <v-col cols="12" md="12">
+      <v-col class="mt-10" cols="12" md="12">
           <h1>Lorem ipsum</h1>
           <h3>Lorem ipsum dolor sit amet, dolor sit amet</h3>
       </v-col>
@@ -124,7 +122,7 @@
     <!--  ////////////////////// SOMOS ////////////////////////  -->
 
     <div class="div-Somos">
-      <v-row>
+      <v-row class="mt-16">
         <v-col class="mt-16 mb-10" cols="12" md="12">
           <h3>Somos tu mejor opcion en la protección exequial de tu familia, aquí te contamos por qué:</h3>
         </v-col>
@@ -245,7 +243,7 @@
         ></v-img>
       </v-col>
       <v-img
-        class="img ma-auto"
+        class="img mt-16"
         max-height="100%"
         max-width="100%"
         width="100%"
@@ -253,9 +251,39 @@
       ></v-img>
     </v-row>
 
-    <hr class="hr1" size="30">
+
+    <v-row class="mb-16">
+      <v-col cols="12" md="4">
+        <v-img
+          class="img mt-16"
+          max-height="100%"
+          max-width="100%"
+          width="100%"
+          src="./images/Mesa de trabajo 2 1.png"
+        ></v-img>
+      </v-col>
+
+      <v-col cols="12" md="4">
+        <v-col>
+          <h3>Lorem ipsum dolor sit amet, dolor sit amet</h3>
+        </v-col>
+        
+        <v-col>
+            <v-btn
+              color="#FF4E17"
+              dark
+              width="40%"
+              height="40px">
+              Lorem ipsum 
+            </v-btn>
+        </v-col>
+      </v-col>
+    </v-row>
+
 
     <!--  ////////////////////// FOOTER ////////////////////////  -->
+
+    <hr class="hr1" size="30">
 
     <v-row>
       <v-col class="mt-1 mb-1">
@@ -277,6 +305,9 @@ export default {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+.iconos{
+  display: flex;
 }
 .hr1{
   height: 3px;
