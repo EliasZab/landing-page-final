@@ -1,59 +1,66 @@
  <template>
   <div>
+    
     <!--  ////////////////////// HEADER ////////////////////////  -->
-    <v-row>
-      <v-col cols="12" md="2">
-        <v-img
-          class="img mt-6 ml-6 mb-2"
-          max-height="100%"
-          max-width="80%"
-          width="100%"
-          src="./images/OLIVOS PNG GRAND 1.png"
-        ></v-img>
-      </v-col>
+    <v-toolbar
+      height="100%"
+      elevation="0"
+    >
+      <v-row>
+        <v-col cols="12" md="2">
+          <v-img
+            class="img mt-6 ml-6 mb-2"
+            max-height="100%"
+            max-width="80%"
+            width="100%"
+            src="./images/OLIVOS PNG GRAND 1.png"
+          ></v-img>
+        </v-col>
 
-      <v-spacer></v-spacer>
-      
-      <v-col cols="12" md="3">
+        <v-spacer></v-spacer>
+        
+        <v-col cols="12" md="3">
 
-        <v-row>
-          <v-col class="iconos mt-6 mb-6">
-            <a>
-              <v-img
-                class="img"
-                max-height="100%"
-                max-width="100%"
-                width="85%"
-                src="./images/Internet (1).png"
-              ></v-img>
-            </a>
+          <v-row>
+            <v-col class="iconos mt-8 mb-6">
+              <a>
+                <v-img
+                  class="img"
+                  max-height="100%"
+                  max-width="100%"
+                  width="85%"
+                  src="./images/Internet (1).png"
+                ></v-img>
+              </a>
 
-            <a>
-              <v-img
-                class="img"
-                max-height="100%"
-                max-width="100%"
-                width="85%"
-                src="./images/Instagram Circle.png"
-              ></v-img>
-            </a>
+              <a>
+                <v-img
+                  class="img"
+                  max-height="100%"
+                  max-width="100%"
+                  width="85%"
+                  src="./images/Instagram Circle.png"
+                ></v-img>
+              </a>
 
-            <a>
-              <v-img
-                class="img"
-                max-height="100%"
-                max-width="100%"
-                width="85%"
-                src="./images/Facebook.png"
-              ></v-img>
-            </a>
-          </v-col>
+              <a>
+                <v-img
+                  class="img"
+                  max-height="100%"
+                  max-width="100%"
+                  width="85%"
+                  src="./images/Facebook.png"
+                ></v-img>
+              </a>
+            </v-col>
 
-        </v-row>
+          </v-row>
 
-      </v-col>
-    </v-row>
-      <hr class="hr1" size="40">
+        </v-col>
+      </v-row>
+    </v-toolbar>
+
+      <hr class="hr1 mt-2" size="40">
 
     <v-row class="ma-1">
       <v-col class="mt-10" cols="12" md="12">
@@ -285,11 +292,14 @@
 
     <hr class="hr1" size="30">
 
-    <v-row>
-      <v-col class="mt-1 mb-1">
-        <h1 class="h1-footer">© 2022 Digital Alliance</h1>
-      </v-col>
-    </v-row>
+    <v-footer>
+      <v-row>
+        <v-col class="mt-1 mb-1">
+          <h1 class="h1-footer">© 2022 Digital Alliance</h1>
+        </v-col>
+      </v-row>
+    </v-footer>
+
 
   </div>
 </template>
